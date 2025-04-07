@@ -14,6 +14,12 @@
 
         <button id="addState">Agregar Estado</button>
         <button id="addTransition">Agregar Transición</button>
+             
+        <label for="automataType" style="margin-left: 10px;">Tipo de Autómata:</label>
+        <select id="automataType">
+            <option value="afd">Autómata Finito Determinista</option>
+            <option value="afnd">Autómata Finito No Determinista</option>
+        </select>
     </div>
     <div id="graph-container">
         <canvas id="graphCanvas" width="600" height="400"></canvas>

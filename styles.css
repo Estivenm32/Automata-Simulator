@@ -19,3 +19,8 @@ input, button {
 canvas {
     border: 1px solid black;
 }
+
+select {
+    padding: 8px;
+    margin: 5px;
+}
