@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Autómatas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simulador de Autómatas</h1>
+    <div id="controls">
+        <label for="alphabet">Alfabeto:</label>
+        <input type="text" id="alphabet" placeholder="Ingresa los símbolos del alfabeto (ej. 0, 1)">
+
+        <button id="addState">Agregar Estado</button>
+        <button id="addTransition">Agregar Transición</button>
+    </div>
+    <div id="graph-container">
+        <canvas id="graphCanvas" width="600" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
